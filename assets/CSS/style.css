@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 115vh;
+  background-image: url(../imagem/fundo01.jpg);
+  background-size: cover;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  font-family: "Sigmar", sans-serif;
+}
+#m {
+  text-decoration: none;
+  color: #efbb60;
+  margin: 30px;
+}
+
+#logo {
+  width: 15%;
+}
+#login,
+#sacolinha {
+  width: 3%;
+}
+#ima {
+  align-self: flex-end;
+  width: 70%;
+}
+/***********************************/
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 98vh;
+  background-image: url(../imagem/fundo02.jpg);
+  background-size: cover;
+  border: 2px solid black;
+}
+.faixa {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  border: 2px solid black;
+}
+form {
+  display: flex;
+  border: 2px solid black;
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  flex-direction: column;
+  align-self: center;
+}
+
+.caixa {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: greenyellow;
+}
+
+.container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  padding: 10px;
+  background-color: white;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Sigmar", sans-serif;
+}
+.linha {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#h3 {
+  font-family: "Sigmar", sans-serif;
+  font-size: 2rem;
+}
+
+#botao {
+  margin-bottom: 40px;
+  margin-top: 15px;
+  background-color: #efbb60;
+  color: red;
+  border: none;
+  padding: 10px 50px 10px 50px;
+  font-family: "Sigmar", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+
+#faixacinza {
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #c2c2c2;
+}
+
+/****/
+
+.php {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../imagem/fundo033.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 98vh;
+}
+#pro {
+  color: #efbb60;
+  font-family: "Sigmar", sans-serif;
+  font-size: 3rem;
+}
+
+.container01 {
+  display: flex;
+  align-items: center;
+}
+
+#img {
+  margin-left: 10%;
+  width: 60%;
+}
+.cupom {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 80%;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: white;
+  border: 2px black solid;
+}
+
+.cupom h3 {
+  margin-top: 2%;
+  font-family: "Sigmar", sans-serif;
+  text-align: center;
+}
+#faixa-cinza {
+  width: 100%;
+  height: 60px;
+  background-color: #c2c2c2;
+}
+.texto {
+  padding: 5%;
+  font-family: "Sigmar", sans-serif;
+  text-align: center;
+}
+
+.bphp {
+  margin-bottom: 40px;
+  margin-top: 15px;
+  background-color: #efbb60;
+  color: red;
+  border: none;
+  padding: 10px 50px 10px 50px;
+  font-family: "Sigmar", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+
+/**/
+.cardapio {
+  width: 100%;
+  height: 98vh;
+  background-color: black;
+}
+
+.cardapio h3 {
+  font-family: "Sigmar", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  color: white;
+}
+.cardapio p{
+    margin-top: 2%;
+    color: white;
+}
